@@ -5,6 +5,7 @@ const ShoppingList = () => {
 return (
    <div>
       <h2>Shopping List</h2>
+      <h4>Task: Render the list as listed items, but strike through "Eggs" to show it's already bought.</h4>
       <ul>
          {shoppingList.map((item) => (
             <li key={item} style={item === "Eggs" ? { textDecoration: "line-through" } : {}}>

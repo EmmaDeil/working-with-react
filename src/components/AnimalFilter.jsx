@@ -5,6 +5,7 @@ const AnimalFilter = () => {
 
   return (
     <div>
+      <h4>Task: Only render animals that start with the letter "E".</h4>
       <ul>
          {animals.filter(animal => animal.startsWith("E")).map(animal => (
             <li key={animal}>{animal}</li>

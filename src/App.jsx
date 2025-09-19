@@ -93,7 +93,7 @@ function App() {
         {/* Home route */}
         <Route path="/" element={<Home />} />
 
-        {/* Regular routes */}
+        {/* Exercise routes */}
         <Route
           path="/animals"
           element={
