@@ -20,7 +20,7 @@ const ProductList = () => {
             key={product.id}
             style={{ color: product.price > 500 ? 'red' : 'inherit', marginBottom: "10px" }}
          >
-            {product.name} - ₦{product.price}
+            {product.name} - ${product.price}
          </div>
       ))}
     </div>
